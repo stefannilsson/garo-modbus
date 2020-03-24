@@ -1,0 +1,42 @@
+{
+  "name": "garo-modbus",
+  "version": "0.1.0",
+  "description": "Modbus poller for GARO energy meter (such as GNM1D, GNM3D, GNM3T)",
+  "main": "dist/garo-modbus.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "dist/garo-modbus.d.ts",
+  "keywords": [
+    "garo",
+    "gnm1d",
+    "gnm3d",
+    "modbus"
+  ],
+  "author": "Stefan Nilsson (Stefan Nilsson Consulting AB)",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "modbus-serial": "^7.7.4"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/node": "^13.7.0",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "typescript": "^3.7.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefannilsson/garo-modbus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefannilsson/garo-modbus/issues"
+  },
+  "homepage": "https://github.com/stefannilsson/garo-modbus#readme"
+}
